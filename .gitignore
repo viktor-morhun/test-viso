@@ -1,0 +1,43 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore environment configuration files
+.env
+.env.*
+
+# Ignore optional npm cache directory
+.npm
+
+# Ignore dependency directories from other package managers
+bower_components/
+jspm_packages/
+
+# Ignore build outputs and testing coverage
+build/
+coverage/
+
+# Ignore temporary files and folders
+tmp/
+temp/
